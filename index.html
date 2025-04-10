@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>BMI Calculator</title>
+    <script src="https://kit.fontawesome.com/e4ef67caf9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <header class="header">
+            <h1>BMI CALCULATOR</h1>
+            </header>
+            <div class="gender">
+                <div class="boxing">
+                    <span><i class="fa-solid fa-mars"></i></span>
+                    <p>MALE</p>
+                </div>
+                <div class="boxing">
+                    <span><i class="fa-solid fa-venus"></i></span>
+                    <p>FEMALE</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="height">
+            <p>HEIGHT</p>
+            <p><span>0</span>cm</p>
+            <input type="range" min="1" max="1000" value="50" class="slide">
+        </div>
+
+        <div class="gender">
+            <div class="boxing">
+                <p>weight</p>
+                <p>0</p>
+                <div class="button">
+                    <button class="btn">- </button>
+                    <button class="btn">+</button>
+                </div>
+            </div>
+            <div class="boxing">
+                <p>age</p>
+                <p>0</p>
+                <div class="button">
+                    <button class="btn">-</button>
+                    <button class="btn">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="calc">
+            <p>CALCULATE</p>
+        </div>
+
+
+    </div>
+    <div class="container2">
+        <header class="header">
+            <h1>BMI RESULT</h1>
+        </header>
+        <h1 class="result">Your Result</h1>
+        <div class="content">
+            <p class="con1">Normal</p>
+            <p class="con2">23.7</p>
+            <p class="con3">Normal BMI range:</p>
+            <p class="con3">18.5 - 25 Kg/m2</p>
+            <p class="con4">You have a normal body weight.</p>
+            <p class="con4">Good job!</p>
+    
+        </div>
+        <div class="calc recalc">
+            <p>RE-CALCULATE YOUR BMI</p>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
